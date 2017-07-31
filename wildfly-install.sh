@@ -4,8 +4,8 @@
 file="/vagrant/$WILDFLY_ARCHIVE_NAME"
 if [ -f "$file" ]
 then
-	echo "$file found locally, using the file.."
-	cp $file /home/vagrant/$WILDFLY_ARCHIVE_NAME
+  echo "$file found locally, using the file.."
+  cp $file /home/vagrant/$WILDFLY_ARCHIVE_NAME
 fi
 
 echo "Downloading: $WILDFLY_DOWNLOAD_ADDRESS..."
