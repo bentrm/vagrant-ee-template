@@ -45,6 +45,7 @@ Add your content here so it will be made available at provisioning time:
 |folder|description|
 |------|-----------|
 |sites|`enabled-sites` configurations as used by __nginx__. A common use case would be to define a proxy location pointing to your Java application.|
+|sql|Add an `import.sql` script that will be executed after initializing the application server and deploying all apps.|
 |war|Self contained WAR-files (`*.war`) that will be deployed to the __Wildfly__ server at provisioning time.|
 |www|Static web content as served by __nginx__.|
 

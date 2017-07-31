@@ -4,6 +4,7 @@
 export APP_DB_USER=vagrant
 export APP_DB_PASS=vagrant
 export APP_DB_NAME=$APP_DB_USER
+export APP_DB_IMPORT_SCRIPT=import.sql
 
 ## PostgreSQL settings
 export PG_VERSION=9.5
